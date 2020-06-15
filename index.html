@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="my-style.css">
@@ -18,8 +21,14 @@
       padding-top:18px;
       padding-bottom:10px;
       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: 'Libre Baskerville', serif;
+/* font-family: 'Playfair Display', serif; */
+
       background-color:#61b9b4;
       text-align: center;
+      font-weight: 800;
+      font-size:2.2rem;
+      min-width:260px;
       
     }
     .navbar {
@@ -32,20 +41,37 @@
       font-weight: 800;
     }
 
+    h5 {
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: 'Libre Baskerville', serif;
+      /* font-family: 'Playfair Display', serif; */
+      color:#61b9b4;
+      font-weight: 800;
+      font-size:2rem;
+      text-shadow: 0 1px 2px rgba(0,0,0,.2);
+    }
+
+    hr {
+      height:2px;
+      background-color:rgb(227, 227, 227);
+    }
+    .bd-image {
+      width:200px;
+    }
 
   </style>
   <body>
    
     
     <nav class="navbar navbar-light bg-light d-flex">
-      <div class="bd-logo col-sm-12 col-md-3 ml-md-4 ml-sm-0 mt-0">
+      <div class="bd-logo col-sm-12 col-md-3 mt-0 p-4">
           <a class="navbar-brand text-white" href="#">Bart Dority</a>
       </div>
       <!-- <button class="navbar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button> -->
     
-      <div id="navbarSupportedContent" class="navbar-expand col-sm-12 col-md-3 d-flex justify-content-center mr-md-4 mr-sm-0">
+      <div id="navbarSupportedContent" class="navbar-expand col-sm-12 col-md-4 d-flex justify-content-center ">
         <ul class="navbar-nav m-2 mr-4">
           <li class="nav-item active">
             <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
@@ -78,16 +104,22 @@
 
 
     <div class="container-fluid my-background">
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+      <div class='row'>
+        <div class='col-sm-10 col-md-8 col-lg-7 mt-4'>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title mt-3">About Me</h5>
+              <hr>
+              <img src='images/kitty.jpg' class='col-sm-6 col-md-7 float-left'>
+              <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+              <p class="card-text text-wrap">Macaroon muffin cookie marshmallow jelly beans chocolate cake dragée pudding tiramisu. Sweet roll chocolate bar macaroon soufflé bonbon pastry. Caramels jelly beans dragée sugar plum chocolate bar. Chocolate cake pastry ice cream toffee jelly-o. Carrot cake sugar plum powder cotton candy carrot cake. Donut tiramisu donut cheesecake tootsie roll oat cake donut. Caramels cake pudding.</p>
+              
+              <!-- <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a> -->
+            </div>
+          </div>
         </div>
       </div>
-      
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
