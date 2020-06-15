@@ -1,7 +1,7 @@
 .my-background {
     background-image:url(https://lh3.googleusercontent.com/proxy/1c4QpMhwau-SiU2aH2nrLj5i_LPUcXUfVz2VO1nvuuNw-jTLOkbmZgMhJk1igqBXsPHxcj0IeaeMP6hb8iQm_Y0c7pTtJ2t953TyY1CwF-EEMDtL7ing4qm9PyPxpp_Wp0O2g9d0qx1XMO0BARALOx6bMXFL8XI);
     background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ace41584-bf35-4a8c-ac80-358c7cdf2f77/d7pfdwz-839e0ce6-0053-45d0-a4b6-26fa36adf725.jpg/v1/fill/w_1600,h_2201,q_75,strp/paper_grain_texture_by_justinbhb_d7pfdwz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0yMjAxIiwicGF0aCI6IlwvZlwvYWNlNDE1ODQtYmYzNS00YThjLWFjODAtMzU4YzdjZGYyZjc3XC9kN3BmZHd6LTgzOWUwY2U2LTAwNTMtNDVkMC1hNGI2LTI2ZmEzNmFkZjcyNS5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LLVQTtmszKKMmx86vc_j32nVHbxtUAGORgYo1UQkX8o);
-    height:calc(100vh - 290px);
+    height:calc(100vh - 240px);
     width:100%;
 }
 
@@ -50,5 +50,9 @@
   .bd-footer {
     border-top:8px solid #61b9b4;
     text-align: center;
-    height:240px;
+    max-height:180px;
+  }
+
+  .card-text {
+      line-height: 1.8rem;
   }
