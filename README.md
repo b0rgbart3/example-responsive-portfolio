@@ -5,11 +5,9 @@ popular front-end open source toolkit
 
 ## There are three pages :
 - About : This is the index / homepage.  It contains basic information about the author. 
-- ![About Me](aboutme.jpg)
 - Portfolio : This section displays the project work, the author has worked on.
-- ![Portfolio](portfolio.jpg)
 - Contact : This section has a contact form.
-- ![Contact Me](contact.jpg)
+- ![Responsive Porfolio](pages.jpg)
 
 ## Technologies Used
 - HTML - used to create elements on the DOM
