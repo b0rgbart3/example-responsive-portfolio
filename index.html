@@ -51,7 +51,7 @@
             <div class="card-body">
               <h5 class="card-title mt-3">About Me</h5>
               <hr>
-              <img src='images/headshot5b.jpg' class='col-sm-12 col-md-6 col-lg-6 col-xl-5 float-left mb-4'>
+              <img src='images/headshot5b.jpg' class='col-sm-12 col-md-6 col-lg-6 col-xl-5 float-left mb-4' alt='photograph of Bart Dority'>
              
               <p>I'm a full-stack web developer, UI/UX engineer -- with a passion for creating friendly, intuitive interfaces with strong visual branding.</p>
               
@@ -76,9 +76,13 @@
                   <li>MySql</li>
                 </ul>
               </div>
-              <br clear='all'>
-              <a href='contact.html'>
-              <button type="button" class="btn btn-secondary">Contact Me</button></a>
+              <br>
+
+              <!-- Note: I am keeping the anchor tag outside of the button tag even though this generates
+              a warning in regards to strict HTML standards - because I want the entire button to be
+              clickable - not just the text. -->
+
+              <a href='contact.html'><button type="button" class="btn btn-secondary">Contact Me</button></a>
 
 
             </div>
